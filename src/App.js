@@ -1,12 +1,16 @@
-import logo from './logo.svg';
+
 import './App.css';
+import Header from './components/Header';
+import About from './components/About';
 
 function App() {
   return (
-     <div className="container">
-      <p><b>Hi my name is sadikshya shrestha.</b> This site is under construction. thanks for visiting</p>
+    <div>
+    <About/>
     </div>
   );
 }
 
 export default App;
+
+
