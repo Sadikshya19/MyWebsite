@@ -17,4 +17,5 @@ code {
 } */
 
 /* why not working */
-/* built and deploy */
+/* first built and then deploy */
+/* after 'npm run build' copy build -> docs (latest built) */
