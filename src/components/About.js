@@ -115,7 +115,8 @@ export default function HomePage() {
           {/* Desktop right links */}
           <div className="hidden md:flex items-center gap-6">
             {/* <a href="#about" className="nav-link">About</a> */}
-            <a href="#contact" className="nav-link">Contact</a>
+            <a href="https://www.linkedin.com/in/sadikshya-shrestha-78a30a205" className="nav-link text-xs">LinkedIn</a>
+            <a href="https://github.com/Sadikshya19/" className="nav-link text-xs">GitHub</a>
           </div>
 
           {/* Mobile hamburger */}
@@ -134,7 +135,7 @@ export default function HomePage() {
         {menuOpen && (
           <div className="md:hidden bg-gray-50 border-t border-gray-100 px-6 py-4 flex flex-col gap-4">
             <a href="#" className="nav-link active" onClick={() => setMenuOpen(false)}>About</a>
-            <a href="#" className="nav-link" onClick={() => setMenuOpen(false)}>Contact</a>
+            <a href="https://www.linkedin.com/in/sadikshya-shrestha-78a30a205" className="nav-link text-xs">LinkedIn</a>
           </div>
         )}
       </nav>
@@ -142,7 +143,10 @@ export default function HomePage() {
       {/* HERO SECTION*/}
       <section className="max-w-3xl mx-auto px-6 pt-16 pb-12 text-center animate-fade-up">
         <h1 className="font-display text-1xl md:text-1xl lg:text-2xl leading-tight text-gray-900">
-          I'm a Software Engineer living in Nepal.
+        I am a Software Engineer with hands-on experience in developing web applications. 
+        I have worked with ASP.NET, C#, and MS SQL Server for backend development, 
+        as well as React and other JavaScript Frameworks for building modern, responsive interfaces. 
+        I am passionate about building scalable and efficient software applications.
         </h1>
       </section>
 
@@ -156,7 +160,12 @@ export default function HomePage() {
     <div className="max-w-5xl mx-auto px-6 flex flex-col md:flex-row justify-between items-center gap-2">
     <p className="font-display text-sm italic text-gray-400">Sadikshya © 2026</p>
     <div className="flex gap-6">
-        <a href="https://www.linkedin.com/in/sadikshya-shrestha-78a30a205" className="nav-link text-xs">LinkedIn</a>
+        <div className="flex items-center gap-2 text-gray-600">
+  <svg className="w-5 h-5" viewBox="0 0 24 24" fill="none" stroke="currentColor">
+    <path strokeWidth="2" d="M21 8l-9 6-9-6M3 6h18v12H3z" />
+  </svg>
+  <div className="text-base">sadikshya12b@gmail.com</div>
+</div>
     </div>
     </div>
     </footer>
